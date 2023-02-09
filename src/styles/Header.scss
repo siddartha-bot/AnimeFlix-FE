@@ -1,0 +1,119 @@
+.header
+{
+    height: 35.422px;
+    padding: 10px;
+    background-color: rgb(25,25,25);
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+}
+.left_header
+{
+    display: flex;
+    flex-direction: row;
+}
+.searchBox input
+{
+    width: 278px;
+    height: 25px;
+    line-height: 18px;
+    margin-left: 40px;
+    position: relative;
+    right: 40px;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 5px;
+    background-color: rgb(20,20,20);
+    border: 1px solid rgb(128, 128, 128);
+}
+.searchBox input::placeholder
+{
+    font-weight: 700;
+    font-size: 14px;
+    
+
+
+}
+.logobutton
+{
+    color: white;
+  
+    font-size: 26px;
+    margin-left: 40px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.homebutton
+{
+    opacity: 70%;
+}
+button
+{
+  background: none;
+	color: inherit;
+	border: 0;
+	padding: 0;
+}
+.homebutton:hover{
+    opacity: 100%;
+}
+.searchanimeimg
+{
+  width: 30px;
+  height: 34px;
+  z-index: 10;
+  margin:0 10px 0 10px;
+  top: 100px;
+
+}
+.searchlist
+{
+    position: absolute;
+    padding: 10px 0 20px 0px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    top: 40px;
+   
+    z-index: 20;
+    list-style: none;
+    width: 295px  ;
+    background-color: rgb(25, 25, 25);
+    border: 1px solid gray;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.searchlist a li{
+    height: 50px !important;
+    display: flex;
+    align-items: center;
+}
+.searchAnimeDetails
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 30px;
+}
+.seachanimeli:hover
+{
+    background-color: #282828;
+}
+
+.logbtn{
+    width: fit-content;
+    padding: 7px 10px 7px 10px;
+    border-radius: 5px;
+    background-color: #87b4ce;
+    cursor: pointer;
+}
+.logbtn:hover{
+    transform: scale(0.95,0.95);
+}
+.searnlog{
+    display: flex;
+    align-items: center;
+}
